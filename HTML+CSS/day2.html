@@ -1,4 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>表单示例</title>
+</head>
+<body>
+  <div>
+  <h1>表格示例</h1>
+<table border="1">
+  <tr>
+    <th>姓名</th>
+    <th>年龄</th>
+    <th>性别</th>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>25</td>
+    <td>女</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td>30</td>
+    <td>男</td>
+  </tr>
+</table>
+</div>
+
+<h1>列表示例</h1>
+<ul>
+  <li>列表项1</li>
+  <li>列表项2</li>
+  <li>列表项3</li>
+</ul>
+<ol>
+  <li>有序列表项1</li>
+  <li>有序列表项2</li>
+  <li>有序列表项3</li>
+</ol>
+
+<h1>表单示例</h1>
 <form>
+  <fieldset>
+    <legend>个人信息</legend>
   <label>账号：<input type="text"></label><br>
   <label>密码：<input type="password"></label><br>
   <label>男<input type="radio" name="gender"></label>
@@ -6,7 +48,11 @@
   <label>记住我<input type="checkbox"></label><br>
   <select>
     <option>学生</option>
-    <option>工程师</option>
+    <option selected>工程师</option>
   </select><br>
   <button type="submit">注册</button>
+  </fieldset> 
 </form>
+
+</body>
+</html>
