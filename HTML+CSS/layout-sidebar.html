@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>固定顶部导航 + 侧边栏布局</title>
+  <link rel="stylesheet" href="layout-sidebar.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">后台管理</div>
+    <nav class="topnav">
+      <a href="#">首页</a>
+      <a href="#">通知</a>
+      <a href="#">帮助</a>
+      <a href="#">退出</a>
+    </nav>
+  </header>
+
+  <aside class="sidebar">
+    <div class="sidebar-title">导航菜单</div>
+    <a class="sidebar-item active" href="#">仪表盘</a>
+    <a class="sidebar-item" href="#">统计</a>
+    <a class="sidebar-item" href="#">订单</a>
+    <a class="sidebar-item" href="#">用户</a>
+    <a class="sidebar-item" href="#">设置</a>
+  </aside>
+
+  <main class="content">
+    <div class="page-header">
+      <h1>欢迎来到后台页面</h1>
+      <p>这是一个固定顶部导航 + 左侧栏布局的静态页面示例。</p>
+    </div>
+
+    <div class="content-grid">
+      <section class="panel">
+        <h2>今日概览</h2>
+        <ul>
+          <li>访客：8,361</li>
+          <li>活跃用户：1,274</li>
+          <li>订单数：532</li>
+          <li>转化率：4.8%</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>快速操作</h2>
+        <button>新增用户</button>
+        <button>生成报表</button>
+        <button>导出数据</button>
+      </section>
+
+      <section class="panel">
+        <h2>系统通知</h2>
+        <p>系统将在今晚 23:00 进行维护，请提前保存数据。</p>
+      </section>
+
+      <section class="panel">
+        <h2>最近活动</h2>
+        <ol>
+          <li>用户 A 提交了一份订单</li>
+          <li>管理员 B 更新了权限</li>
+          <li>系统 C 生成了日报</li>
+        </ol>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
